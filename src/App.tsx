@@ -1,17 +1,12 @@
 import { useState, useEffect } from 'react'
 
-import Row from './components/Row'
-import { checkIfWin, checkValid, getRandWord, inWordList } from './components/HelperFunctions';
-import Keys from './components/Keyboard'
+import Row from './components/Row.tsx'
+import { checkIfWin, checkValid, getRandWord, inWordList } from './components/HelperFunctions.tsx';
+import Keys from './components/Keyboard.tsx'
 
-import type { validColor, GameState } from './Global';
-
-
-
+import type { validColor, GameState } from './Global.tsx';
 
 const ALPHABET = "abcdefghijklmnopqrstuvwxyz";
-
-const WORD = "apple";
 
 function App() {
   const [currGameState, changeCurrGameState] = useState<GameState>({

@@ -1,5 +1,5 @@
-import { COLORS } from "../Global";
-import type { validColor } from "../Global";
+import { COLORS } from "../Global.tsx";
+import type { validColor } from "../Global.tsx";
 
 const SIZE = 75;
 

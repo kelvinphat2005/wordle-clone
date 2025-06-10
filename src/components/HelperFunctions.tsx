@@ -1,5 +1,4 @@
-import { COLORS } from "../Global";
-import type { validColor } from "../Global";
+import type { validColor } from "../Global.tsx";
 import validWords from '../words.json';
 
 const validWordSet = new Set(validWords);
