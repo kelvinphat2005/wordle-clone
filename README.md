@@ -1,4 +1,4 @@
-# Wordle Clones
+# Wordle Clone
 
 Made a wordle clone to learn and practice react and typescript
 
